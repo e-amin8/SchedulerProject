@@ -17,4 +17,5 @@ Below is a brief description of vital classes
 
 PCB - represents a process control block, maintains job statistics (start time, wait time, etc.) for final calculations
 CPU - represents the CPU completing tasks, program uses execute method to assign a task
+
 Scheduler - represents a scheduler and acts as the "heart" of the program, maintains list of all CPU & IO bursts
