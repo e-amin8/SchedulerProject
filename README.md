@@ -1,7 +1,6 @@
-## Getting Started
+## Introduction
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
+This is project from my Operating Systems course. Implemented First Come First Serve and Shortest Job First CPU scheduling algorithms.
 ## Folder Structure
 
 The workspace contains two folders by default, where:
@@ -13,6 +12,9 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+## Classes
+Below is a brief description of vital classes
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+PCB - represents a process control block, maintains job statistics (start time, wait time, etc.) for final calculations
+CPU - represents the CPU completing tasks, program uses execute method to dedicate the CPU to the queued process
+Scheduler - represents a scheduler and acts as the "heart" of the program, maintains list of all CPU & IO bursts
